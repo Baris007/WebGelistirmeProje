@@ -38,7 +38,7 @@ const Register = () => {
     };
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh',backgroundColor: 'rgba(128, 172, 192, 0.37)', }}>
             <Card style={{ width: 400 }}>
                 <Title level={3} style={{ textAlign: 'center' }}>Kayıt Ol</Title>
                 <Form

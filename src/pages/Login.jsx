@@ -39,7 +39,7 @@ const Login = () => {
 
         <div className='background'
             style={{
-                backgroundImage: `url('/airport.jpg')`,
+                backgroundColor: 'rgba(128, 172, 192, 0.37)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
@@ -54,7 +54,17 @@ const Login = () => {
             }}
 
         >
-            
+            <div
+                style={{
+                    fontFamily: "'Pacifico', cursive",
+                    fontSize: '64px',
+                    color: 'rgba(145, 48, 48, 0.5)',
+                    marginBottom: '20px',
+                    textShadow: '2px 2px 6px rgba(41, 25, 25, 0.5)'
+                }}
+            >
+                FlyRes
+            </div>
             <div
                 style={{
                     fontFamily: '"Playfair Display", serif',
